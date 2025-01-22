@@ -1,0 +1,10 @@
+.submitForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 600px;
+  gap: 15px;
+}
+.submitFormTitle {
+  text-align: center;
+}
