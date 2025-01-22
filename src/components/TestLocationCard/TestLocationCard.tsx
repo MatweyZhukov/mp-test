@@ -37,7 +37,7 @@ export const TestLocationCard: FC<ITestLocationCardProps> = ({
     <li className={styles.locationsListItem}>
       <h2>{location.title}</h2>
       <label className={styles.locationsListItemLabel}>
-        <FontAwesomeIcon icon={faLocationDot} style={{ marginRight: 5 }} />{" "}
+        <FontAwesomeIcon icon={faLocationDot} style={{ marginRight: 5 }} />
         Локация:{" "}
         <Select
           style={{ width: "100%" }}
